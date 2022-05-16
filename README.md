@@ -28,7 +28,7 @@ This is a simple project that simulates the rolling of dice. The only mechanism 
     void generateRandomNum()
     {
         srand(time(0));
-        diceFaceNum = 1 + rand() % 6; //  rand()%6 gives numbers from 0 to 5 that's why 1 isadded
+        diceFaceNum = 1 + rand() % 6; //  rand()%6 gives numbers from 0 to 5 that is why 1 is added
     }
 ```
 # Authors
